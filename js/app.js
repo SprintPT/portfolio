@@ -1,27 +1,22 @@
-var main = function() {
-  $('.article').click(function() {
-    $('.article').removeClass('current');
-    $('.description').hide();
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
 
-    $(this).addClass('current');
-    $(this).children('.description').show();
-  });
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
 
-  $(document).keypress(function(event) {
-    if(event.which === 111) {
-      $('.description').hide();
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
 
-      $('.current').children('.description').show();
-    }
-
-    else if(event.which === 110) {
-      var currentArticle = $('.current');
-      var nextArticle = currentArticle.next();
-      
-      currentArticle.removeClass('current');
-      nextArticle.addClass('current');
-    }
-  });
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
 
-$(document).ready(main);
+document.getElementById("defaultOpen").click();
