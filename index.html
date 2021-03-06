@@ -1,134 +1,240 @@
-<!doctype html>
-<html lang="en">
-   <head>
-      <title>Sprint - Portfolio</title>
-      <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css">
-      <link rel="stylesheet" href="../portfolio/css/bootstrap.css">
-      <link rel="stylesheet" href="../portfolio/css/main.css">
-       
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script src="../portfolio/js/app.js"></script>
-      
-      <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0tLSIxMTG4MjIy9zIyMvIzMzO5MjIyTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjLKMzMz/zMzM/8zMzP/MzMz/zIyMv4yMjKeAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIy+TMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zExMXsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIyMrwzMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8yMjLkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxMTEpMjIy7TMzM/8zMzP/MzMz/zMzM/8zMzP/MjIy+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4uLiYyMjK/MjIy/jMzM/8zMzP/MzMz/zMzM/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8vLyswMDBjMjIyZjExMbMzMzP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjKXMzMz+gAAAAAAAAAAAAAAAAAAAAAwMDBKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIylzMzM/oAAAAAAAAAAAAAAAAAAAAAMzMzrwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIyMpczMzP6AAAAAAAAAAAAAAAAMTExLjMzM6UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjKXMzMz+gAAAAAAAAAAAAAAADIyMqsxMTFdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIylzMzM/oAAAAAAAAAADMzM1ozMzP1MzMzDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIyMpczMzP6MzMzBTIyMm8yMjL5MjIymQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjKXMjIy/jMzM+szMzP/MjIy8ysrKx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIylzMzM/8zMzP/MjIy/TIyMlsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzM2QyMjL4MzMz1zMzM1AAAAAAAAAAAAAAAAAAAAAA4f8AAMB/AADAfwAAwD8AAOA/AADwPwAA/z8AAP8/AAD/PQAA/z0AAP87AAD/OwAA/zMAAP8HAAD/DwAA/58AAA==" rel="icon" type="image/x-icon" />
-   </head>
-   
-   <body>
-      <div class="nav">
-         <div class="container">
-            <ul class="pull-left">
-               <li><a href="https://sprintpt.github.io/portfolio/">Home</a></li>
-            </ul>
-            <ul class="pull-right">
-               <li><a href="https://sketchfab.com/Sprintpt">Sketchfab</a></li>
-               <li><a href="https://www.mc-market.org/threads/574717/">MC-Market Thread</a></li>
-            </ul>
-         </div>
-      </div>
-      <div class="jumbotron">
-         <div class="container">
-                  <h1>Pedro Mota aka Sprint</h1>
-                  <h2>3D Modeling Portfolio</h2>
-         </div>
-      </div>
-      <div class="articles container">
-         <div class="article current">
-            <div class="item row">
-               <div class="col-xs-8">
-                  <h2 class="title">Playlists</h2>
-               </div>
-               <div class="col-xs-3">
-                  <p class="pubdate"></p>
-               </div>
-            </div>
-            <div class="description row">
-               <div class="col-xs-9">
-                  <div class="playlists">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <h4>House</h4>
-                              <iframe width="280" height="157" src="//www.youtube.com/embed/MVP-ZQHkZxQ?list=PLbMRZo_WWBerHG-2IOfw_UfODEkP5enn3" frameborder="0" allowfullscreen></iframe>
-                           </div>
-                           <div class="col-md-4">
-                              <h4>Electro</h4>
-                           </div>
-                           <div class="col-md-4">
-                              <h4>Dubstep</h4>
-                              <iframe width="280" height="157" src="//www.youtube.com/embed/4GszfbHB7nc?list=PLbMRZo_WWBepLXictKu6_0rbjo8havD9S" frameborder="0" allowfullscreen></iframe>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-md-4">
-                              <h4>Drumstep</h4>
-                              <iframe width="280" height="157" src="//www.youtube.com/embed/_nXSUURG4kM?list=PLbMRZo_WWBeo7KjZ8V4cj0p3hwQhY2Xfo" frameborder="0" allowfullscreen></iframe>
-                           </div>
-                           <div class="col-md-4">
-                              <h4>Drum n' Bass</h4>
-                              <iframe width="280" height="157" src="//www.youtube.com/embed/szxtZ8712f0?list=PLbMRZo_WWBeq3M-MIA8P_vYXz2Ej66Qvj" frameborder="0" allowfullscreen></iframe>
-                           </div>
-                           <div class="col-md-4">
-                              <h4>EDM</h4>
-                              <iframe width="280" height="157" src="//www.youtube.com/embed/cUy78QHeuvs?list=PLbMRZo_WWBeq4u1iBMoxMVEUqAgI-l81J" frameborder="0" allowfullscreen></iframe>
-                           </div>
-                        </div>
-                        <div class="row">
-                           <div class="col-md-4">
-                              <h4>Mixes</h4>
-                              <iframe width="280" height="157" src="//www.youtube.com/embed/NAp6qYBrzqY?list=PLbMRZo_WWBeo-ra6uf0aP-XTTlNY066uN" frameborder="0" allowfullscreen></iframe>
-                           </div>
-                           <div class="col-md-4">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xs-3">&nbsp;</div>
-            </div>
-         </div>
-      </div>
-      <div class="articles container">
-         <div class="article current">
-            <div class="item row">
-               <div class="col-xs-8">
-                  <h2 class="title">Maps</h2>
-               </div>
-               <div class="col-xs-3">
-                  <p class="pubdate"></p>
-               </div>
-            </div>
-            <div class="description row">
-               <div class="col-xs-9">
-                  <div class="playlists">
-                     <div class="container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d45100809.15336704!2d-6.699482374218723!3d46.374646777938196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spt!4v1424272579063" width="600" height="450" frameborder="0" style="border:0"></iframe>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-xs-3">&nbsp;</div>
-         </div>
-      </div>
-      <div class="articles container">
-      <div class="article current">
-         <div class="item row">
-            <div class="col-xs-8">
-               <h2 class="title">Calendar</h2>
-            </div>
-            <div class="col-xs-3">
-               <p class="pubdate"></p>
-            </div>
-         </div>
-         <div class="description row">
-            <div class="col-xs-9">
-               <div class="playlists">
-                  <div class="container">
-                     <iframe src="https://www.google.com/calendar/embed?src=en.portuguese%23holiday%40group.v.calendar.google.com&ctz=Europe/London" style="border: 0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
-                  </div>
-               </div>
-            </div>
-            <div class="col-xs-3">&nbsp;</div>
-         </div>
+<!DOCTYPE html>
+<!-- Template from: https://getbootstrap.com/docs/5.0/examples/album/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sprint - Portfolio</title>
+    
+    <!--CSS-->
+    
+<link href="./index_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="../portfolio/css/main.css">
+
+    <!-- Favicons -->
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0tLSIxMTG4MjIy9zIyMvIzMzO5MjIyTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjLKMzMz/zMzM/8zMzP/MzMz/zIyMv4yMjKeAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIy+TMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/zExMXsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIyMrwzMzP/MzMz/zMzM/8zMzP/MzMz/zMzM/8yMjLkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxMTEpMjIy7TMzM/8zMzP/MzMz/zMzM/8zMzP/MjIy+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4uLiYyMjK/MjIy/jMzM/8zMzP/MzMz/zMzM/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8vLyswMDBjMjIyZjExMbMzMzP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjKXMzMz+gAAAAAAAAAAAAAAAAAAAAAwMDBKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIylzMzM/oAAAAAAAAAAAAAAAAAAAAAMzMzrwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIyMpczMzP6AAAAAAAAAAAAAAAAMTExLjMzM6UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjKXMzMz+gAAAAAAAAAAAAAAADIyMqsxMTFdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIylzMzM/oAAAAAAAAAADMzM1ozMzP1MzMzDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIyMpczMzP6MzMzBTIyMm8yMjL5MjIymQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyMjKXMjIy/jMzM+szMzP/MjIy8ysrKx0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjIylzMzM/8zMzP/MjIy/TIyMlsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzM2QyMjL4MzMz1zMzM1AAAAAAAAAAAAAAAAAAAAAA4f8AAMB/AADAfwAAwD8AAOA/AADwPwAA/z8AAP8/AAD/PQAA/z0AAP87AAD/OwAA/zMAAP8HAAD/DwAA/58AAA==" rel="icon" type="image/x-icon" />
+
+<meta name="theme-color" content="#7952b3">    
+  </head>
+  <body>
+    
+<header>
+  <div class="bg-dark collapse" id="navbarHeader" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About me</h4>
+          <p class="text-white">My name is Pedro Mota, also known as Sprint. I am a master degree student and part time 3D Modeler for Minecraft related projects. You can find some of my past works below. Feel free to reach out to me for questions related with my models or model requests!</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Add me on Discord: Sprint#6654</a></li>
+            <li><a href="https://sketchfab.com/Sprintpt" class="text-white">Follow me on Sketchfab</a></li>
+            <li><a href="https://www.mc-market.org/threads/574717/" class="text-white">Check out my MC-Market Thread</a></li>
+            <li><a href="mailto:pedro.a.mota@live.com.pt" class="text-white">Email me</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-   </body>
-</html>
+  </div>
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="https://getbootstrap.com/docs/5.0/examples/album/#" class="navbar-brand d-flex align-items-center">
+        <strong>Portfolio</strong>
+      </a>
+      <button class="navbar-toggler collapsed text-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">About me & Contacts
+          <!-- <span class="navbar-toggler-icon"></span> !-->      
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light text-light">Pedro Mota aka Sprint</h1>
+        <p class="lead text-white">Minecraft 3D Modeling Portfolio</p>
+      </div>
+    </div>
+  </section>
+    
+<div class="nav bg-dark text-light shadow-sm">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+            <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'JavaMC')" id="defaultOpen">Java Edition</button></p>
+            </li>
+            <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'BedrockMC')"> Bedrock Edition</button></p>
+            <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'Skins')">Skins</button></p>
+        </ul>
+    </div>
+</div>
+  <div class="album py-5 bg-light ">
+    <div class="container">
+     <div id="JavaMC" class="tabcontent" >
+        
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+         </div>
+         </div>
+        
+        <div id="BedrockMC" class="tabcontent">
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+            </div>
+        </div>  
+    <div id="Skins" class="tabcontent">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+</main>
+
+<!-- 
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="https://getbootstrap.com/docs/5.0/examples/album/#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is © Bootstrap, but please download and customize it for yourself!</p>
+  </div>
+</footer>
+
+-->
+
+    <script src="./index_files/bootstrap.bundle.min.js.transferir" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <script src="../portfolio/js/app.js"></script>
+      
+  
+
+</body></html>
