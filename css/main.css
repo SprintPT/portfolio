@@ -11,6 +11,13 @@ body {
   padding: 10px;
 }
 
+.album{
+    background-color:#31383F;
+}
+
+.card{
+    border: 1px solid #31383F;
+}
 
 /* from:https://www.w3schools.com/howto/howto_js_tabs.asp
 Style the buttons that are used to open the tab content */
@@ -75,7 +82,9 @@ Modal Images */
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-height: 400px;
+  max-width: 1200px;
+  width: auto;
 }
 
 #caption {
