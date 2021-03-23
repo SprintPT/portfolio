@@ -21,6 +21,7 @@ function openTab(evt, tabName) {
 
 document.getElementById("defaultOpen").click();
 
+
 // MODAL IMAGES
 // create references to the modal...
 var modal = document.getElementById('myModal');
