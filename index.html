@@ -71,11 +71,13 @@
             <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'Skins')">Skins</button></p>
             <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'Sketchfab')">Sketchfab</button></p>
         </ul>
-        <div id="myModal" class="modal">
-              <span class="close">&times;</span>
-              <img class="modal-content" id="img01">
-              <div id="caption"></div>
-        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl vertical-center" >
+            <div class="modal-content modal-xl vertical-center" id="myModal">
+            <img class="modal-content vertical-center" id="img01">
+            </div>
+          </div>
+</div>
     </div>
 </div>
   <div class="album py-5">
@@ -87,7 +89,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/monster.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/monster.png" width="100%">
             <div class="card-body">
               <p class="card-text">Monster - Commission</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -98,7 +100,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/mobs_mymeta.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/mobs_mymeta.png" width="100%">
             <div class="card-body">
               <p class="card-text">Mobs for MyMetaverse.io</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -109,7 +111,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/delorean.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/delorean.png" width="100%">
             <div class="card-body">
               <p class="card-text">DMC DeLorean made for MyMetaverse.io</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -120,7 +122,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/ben10.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/ben10.png" width="100%">
             <div class="card-body">
               <p class="card-text">Examples from a Ben 10 monster set</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -131,7 +133,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/vehiclesST.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/vehiclesST.png" width="100%">
             <div class="card-body">
               <p class="card-text">Vehicles - examples from a Senior Team commission</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -142,7 +144,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/police_car_and_truck.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/police_car_and_truck.png" width="100%">
             <div class="card-body">
               <p class="card-text">Truck and Police car - Commissions</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -153,7 +155,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/halo_stand_katana.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/halo_stand_katana.png" width="100%">
             <div class="card-body">
               <p class="card-text">Halo Armor Stand and Katana - Commissions</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -164,7 +166,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/animals_items.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/animals_items.png" width="100%">
             <div class="card-body">
               <p class="card-text">Animals and Items - Commission</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -175,7 +177,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/weapons_tools_mymeta.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/weapons_tools_mymeta.png" width="100%">
             <div class="card-body">
               <p class="card-text">Tools and Weapons for MyMetaverse.io</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -186,7 +188,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/mobs_random.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/mobs_random.png" width="100%">
             <div class="card-body">
               <p class="card-text">Mob Commissions</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -197,7 +199,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/drugs.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/drugs.png" width="100%">
             <div class="card-body">
               <p class="card-text">Weed Models - Senior Team commission</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -208,7 +210,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/items_generated.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/items_generated.png" width="100%">
             <div class="card-body">
               <p class="card-text">Minecraft Styled Items</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -219,7 +221,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/sea_monster.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/sea_monster.png" width="100%">
             <div class="card-body">
               <p class="card-text">Sea Monster - Commission</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -230,7 +232,7 @@
         </div> 
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/aot.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/aot.png" width="100%">
             <div class="card-body">
               <p class="card-text">Attack On Titan model set. Check how the models work in game <a href= "https://www.reddit.com/r/attackontitan/comments/g5yim2/odm_gear_in_minecraft" target="_blank">here!</a></p>
               <div class="d-flex justify-content-between align-items-center">
@@ -241,7 +243,7 @@
         </div> 
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/karts.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/karts.png" width="100%">
             <div class="card-body">
               <p class="card-text">Kart Resource Pack - Personal project</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -252,7 +254,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/pokefind_skins.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/pokefind_skins.png" width="100%">
             <div class="card-body">
               <p class="card-text">Pokémon Skins - Themed Pókemon skins for Pokéfind</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -263,7 +265,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/java/pokefind_items.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/java/pokefind_items.png" width="100%">
             <div class="card-body">
               <p class="card-text">Random Items - Themed Pokémon items for Pokéfind</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -291,7 +293,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/cars.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/cars.png" width="100%">
             <div class="card-body">
               <p class="card-text">Cars</p>
             </div>
@@ -299,7 +301,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/cars2.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/cars2.png" width="100%">
             <div class="card-body">
               <p class="card-text">Cars</p>
             </div>
@@ -307,7 +309,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/vehicles.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/vehicles.png" width="100%">
             <div class="card-body">
               <p class="card-text">Vehicles</p>
             </div>
@@ -315,7 +317,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/food.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/food.png" width="100%">
             <div class="card-body">
               <p class="card-text">Food</p>
             </div>
@@ -323,7 +325,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/pool.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/pool.png" width="100%">
             <div class="card-body">
               <p class="card-text">Pool Toys</p>
             </div>
@@ -331,7 +333,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/furniture1.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/furniture1.png" width="100%">
             <div class="card-body">
               <p class="card-text">Furniture</p>
             </div>
@@ -339,7 +341,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/furniture2.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/furniture2.png" width="100%">
             <div class="card-body">
               <p class="card-text">Furniture</p>
             </div>
@@ -347,7 +349,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/furniture3.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/furniture3.png" width="100%">
             <div class="card-body">
               <p class="card-text">Furniture</p>
             </div>
@@ -355,7 +357,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/animals.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/animals.png" width="100%">
             <div class="card-body">
               <p class="card-text">Animals</p>
             </div>
@@ -363,7 +365,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/billionaires/money.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/billionaires/money.png" width="100%">
             <div class="card-body">
               <p class="card-text">Money Objects</p>
             </div>
@@ -385,7 +387,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/toxic/posters.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/toxic/posters.png" width="100%">
             <div class="card-body">
               <p class="card-text">Posters and newspaper</p>
             </div>
@@ -393,7 +395,7 @@
         </div>
         <div class="col">
             <div class="card">
-                <img class="myImages" id="myImg" src="../portfolio/images/bedrock/toxic/signs.png" width="100%">
+                <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/toxic/signs.png" width="100%">
                 <div class="card-body">
                   <p class="card-text">Signs and items</p>
                 </div>
@@ -418,7 +420,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/steampunk/objects.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/steampunk/objects.png" width="100%">
             <div class="card-body">
               <p class="card-text">Objects</p>
             </div>
@@ -426,7 +428,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/steampunk/jetskis.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/steampunk/jetskis.png" width="100%">
             <div class="card-body">
               <p class="card-text">Jetskis and Air Balloons</p>
             </div>
@@ -434,7 +436,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/steampunk/boats.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/steampunk/boats.png" width="100%">
             <div class="card-body">
               <p class="card-text">Boats and Airships</p>
             </div>
@@ -442,7 +444,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/steampunk/furniture1.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/steampunk/furniture1.png" width="100%">
             <div class="card-body">
               <p class="card-text">Furniture</p>
             </div>
@@ -450,7 +452,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/steampunk/furniture2.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/steampunk/furniture2.png" width="100%">
             <div class="card-body">
               <p class="card-text">Furniture</p>
             </div>
@@ -473,7 +475,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/school/items.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/school/items.png" width="100%">
             <div class="card-body">
               <p class="card-text">Diverse items</p>
             </div>
@@ -481,7 +483,7 @@
         </div>   
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/school/furniture.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/school/furniture.png" width="100%">
             <div class="card-body">
               <p class="card-text">Furniture</p>
             </div>
@@ -489,7 +491,7 @@
         </div> 
         <div class="col">
           <div class="card">
-            <img class="myImages" id="myImg" src="../portfolio/images/bedrock/school/skins.png" width="100%">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/bedrock/school/skins.png" width="100%">
             <div class="card-body">
               <p class="card-text">NPC Skins</p>
             </div>
@@ -509,7 +511,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card ">
-            <img class="myImages" id="myImg" src="../portfolio/images/skins/skins_microsoft.png" width="100%">   
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/skins/skins_microsoft.png" width="100%">   
             <div class="card-body">
               <p class="card-text">Microsoft x Mymetaverse.io skins</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -520,7 +522,7 @@
         </div>
         <div class="col">
           <div class="card ">
-            <img class="myImages" id="myImg" src="../portfolio/images/skins/skins_cyborgs.png" width="100%">   
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/skins/skins_cyborgs.png" width="100%">   
             <div class="card-body">
               <p class="card-text">Mymetaverse.io cyborg/robot skins</p>
               <div class="d-flex justify-content-between align-items-center">
@@ -531,7 +533,7 @@
         </div>
         <div class="col">
           <div class="card ">
-            <img class="myImages" id="myImg" src="../portfolio/images/skins/skins_weapons.png" width="100%">   
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../portfolio/images/skins/skins_weapons.png" width="100%">   
             <div class="card-body">
               <p class="card-text">Set of 3 skins with weapons for Mymetaverse.io</p>
               <div class="d-flex justify-content-between align-items-center">
