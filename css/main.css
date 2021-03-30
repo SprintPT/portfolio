@@ -49,9 +49,19 @@ Style the buttons that are used to open the tab content */
 
 /* from: https://stackoverflow.com/questions/47798971/several-modal-images-on-page
 Modal Images */
-
-.modal-dialog {
+.modal-dialog{
   padding-top: 40px;
+}
+
+.modal-dialog,
+.modal-content{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-height: 550px;
+  max-width: 1200px;
+  width: auto;
+}
 }
 
 #myImg {
@@ -62,6 +72,7 @@ Modal Images */
 
 #myImg:hover {
   opacity: 0.7;
+    cursor: pointer;
 }
 
 /* Accordion */
