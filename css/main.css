@@ -1,7 +1,12 @@
 body {
-    background-color:#5A9DF4;
+    background-color:#31383F;
     font-weight: 400;
 }
+
+.jumbotron{
+    background-color:#5A9DF4;
+}
+
 .lead, .btn, button{
     font-weight: 400;
 }
@@ -15,25 +20,25 @@ body {
   padding: 10px;
 }
 
-.album{
-    background-color:#31383F;
-}
 
 .card{
     border: 1px solid #31383F;
+    background-color:#31383F;
 }
 
 
 /* from:https://www.w3schools.com/howto/howto_js_tabs.asp
 Style the buttons that are used to open the tab content */
 .nav button {
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
+  margin-top: 60px;
   transition: 0.3s;
     background-color: #5A9DF4;
+    vertical-align: middle;
+
 }
 
 /* Change background color of buttons on hover */
@@ -41,54 +46,51 @@ Style the buttons that are used to open the tab content */
   background-color: #0B59C6;
 }
 
-/* Create an active/current tablink class */
-.nav button.active {
-  background-color: #0d6efd;
+
+
+/*Link images */
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+
+
+
+.imgcontainer {
+    padding: 10px;
+  height: auto;
+  position: relative;
+  max-width: 300px;
 }
 
 
-/* from: https://stackoverflow.com/questions/47798971/several-modal-images-on-page
-Modal Images */
-.modal-dialog{
-  padding-top: 40px;
-}
-
-.modal-dialog,
-.modal-content{
-  margin: auto;
+/* Make the image to responsive */
+.image {
   display: block;
-  width: 80%;
-  max-height: 550px;
-  max-width: 1200px;
-  width: auto;
-}
+  width: 100%;
+  height: auto;
 }
 
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  background: rgba(0, 0, 0, 0.3); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  font-size: 20px;
+  text-align: center;
 }
 
-#myImg:hover {
-  opacity: 0.7;
-    cursor: pointer;
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
 }
 
-/* Accordion */
-.accordion-button:not(.collapsed) {
-    color: #fff;
-    background-color: #0d6efd;
-}
-.accordion-button {
-    color: #fff;
-    background-color: #5A9DF4;
-    border: 3px solid rgba(0,0,0,.125);
+
+.select {
+    margin-top: 40px;
 }
 
-.accordion-button:not(.collapsed)::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2312529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
 
 
 /* To Top button */
