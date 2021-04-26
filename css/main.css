@@ -61,6 +61,8 @@ Style the buttons that are used to open the tab content */
   height: auto;
   position: relative;
   max-width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
