@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<!-- Template from: https://getbootstrap.com/docs/5.0/examples/album/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    
+    <!--CSS-->
+    
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../InformationManagement/css/main.css">
+
+    <!-- Favicons -->
+<link href="../InformationManagement/logo.ico" rel="icon" type="image/x-icon" />
+
+<meta name="theme-color" content="#7952b3">    
+  </head>
+  <body>
+    
+<header>
+  <div class="bg-dark collapse" id="navbarHeader" style="">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About me</h4>
+          <p class="text-white">My name is Pedro Mota, also known as Sprint. I am a master degree student in Information Management and a part time 3D Modeler for Minecraft related projects. You can find some of my past works below.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://www.linkedin.com/in/pnamota/" class="text-white">My LinkedIn</a></li>
+            <li><a href="mailto:pedro.a.mota@live.com.pt" class="text-white">Email me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-dark ">
+    <div class="container">
+      <a href="https://sprintpt.github.io/portfolio/" class="navbar-brand d-flex align-items-center">
+        <strong>Portfolio</strong>
+      </a>
+      <button class="navbar-toggler collapsed text-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">About me & Contacts
+          <!-- <span class="navbar-toggler-icon"></span> !-->      
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+ <div class="jumbotron">
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class=" text-light">Pedro Mota</h1>
+        <p class="lead text-white">Information Management Portfolio</p>
+      </div>
+    </div>
+  </section>
+</div>
+    
+<div class="nav bg-dark text-light ">
+    <div class="container">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+            <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'DataScience')" id="defaultOpen">Data Science</button></p>
+            </li>
+            <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'BusinessIntelligence')">Business Intelligence</button></p>
+            <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'MasterThesis')">Master Thesis</button></p>
+            <p><button class="btn btn-primary my-2 tablinks" onclick="openTab(event, 'Other')">Other</button></p>
+        </ul>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl vertical-center" id="myModal">
+            <div class="modal-body modal-xl">
+            <img class="modal-content" id="img01">
+            </div>
+            </div>
+</div>
+    </div>
+</div>
+  <div class="album py-5">
+    <div class="container">
+        
+    <!-- DataScience -->
+     <div id="DataScience" class="tabcontent" >
+        
+        <div class="accordion" id="accordionDS">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="DSheadingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <Strong>Group work:</Strong>&nbsp Predictive model to support direct marketing initiatives
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show bg-light" aria-labelledby="headingOne" data-bs-parent="#accordionDS">
+      <div class="accordion-body">
+        <p><Strong>Goal: </Strong>Building a predictive model that produces the highest profit for the next direct marketing campaign of the company. Achieved by cherry picking the customers that are most likely to purchase the offer</p>
+        <p><Strong>Data: </Strong>Groups were given a dataset resultant from a pilot campaign, containing variables related with client information, their acquisitions of company products and whether the clients accepted the pilot campaign.</p>
+        <p><Strong>Performed functions: </Strong>Data access, exploration and understanding; Data preparation; Modelling; Assessment.</p>
+        <p><Strong>Technologies: </Strong>SAS Enterprise Miner.</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/SAS_Variables.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Dataset Variables</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/SAS_VarWorth.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Variable Worth</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/SAS_Models.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Model Evaluation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="DSheadingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <Strong>Group work:</Strong>&nbsp Predictive model to understand employee churn
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse bg-light" aria-labelledby="headingTwo" data-bs-parent="#accordionDS">
+      <div class="accordion-body">
+          <p><Strong>Goal: </Strong>Building a predictive model that answers the question “What people are more likely to quit their position at the company?” using the data accessible from the employee dataset provided.</p>
+        <p><Strong>Data: </Strong>Groups were given a dataset containing employee information and their churn risk as “low”, “medium” or “high”.</p>
+        <p><Strong>Performed functions: </Strong>Data access, exploration and understanding; Data preparation; Modelling; Assessment.</p>
+        <p><Strong>Technologies: </Strong>Python, Jupyter Notebooks, NumPy, pandas, ML Algorithms.</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+        <div class="col">
+        <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/MPDM_Variables.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Dataset Variables</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/MPDM_VarWorth.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Variable Worth</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/MPDM_Models.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Model Evaluation - Best scores obtained with Random Forest (RF)</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <Strong>Group work:</Strong> &nbsp Predictive model to understand customer churn
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse bg-light" aria-labelledby="headingThree" data-bs-parent="#accordionDS">
+      <div class="accordion-body">
+        <p><Strong>Goals: </Strong>Building a predictive model to determine which clients are at risk to churn. Building a business case around possible actions to help mitigate the customer churn increase.</p>
+        <p><Strong>Data: </Strong>Groups were given a dataset containing customer and service information, plus whether the client churned or not.</p>
+        <p><Strong>Performed functions: </Strong>Data access, exploration and understanding; Data preparation; Modelling; Assessment; Business case definition.</p>
+        <p><Strong>Technologies: </Strong>Python, Spyder, NumPy, pandas, ML Algorithms.</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+        <div class="col">
+        <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/DSFM_Variables.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Dataset Variables</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/DSFM_Model.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Predictive Model</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/DSFM_BusinessCase.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Business Case</p>
+            </div>
+          </div>
+        </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <Strong>Group work: </Strong> &nbsp Studying customer patterns and identifying segments
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse bg-light" aria-labelledby="headingFour" data-bs-parent="#accordionDS">
+      <div class="accordion-body">
+        <p><Strong>Goal: </Strong>Finding potential interesting customer patterns that could provide meaningful insights about the customers and their buying habits</p>
+        <p><Strong>Data: </Strong>Groups were given a dataset containing variables related with client information and their acquisitions of company products.</p>
+        <p><Strong>Performed functions: </Strong>Data access, exploration and understanding; Data Clustering; Business case definition.</p>
+        <p><Strong>Technologies: </Strong>Python, Jupyter Notebooks, NumPy, pandas, SOM.</p>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
+                <div class="col">
+        <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/MDDM_Variables.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Dataset Variables</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/MDDM_KMeansSOM.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">KMeans and SOM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../InformationManagement/images/DataScience/MDDM_Campaigns.png" width="100%">
+            <div class="card-body">
+              <p class="card-text">Marketing Campaigns</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+         </div>
+        
+    <!-- BusinessIntelligence -->
+    <div id="BusinessIntelligence" class="tabcontent">
+                
+
+        
+        
+        </div>  
+        
+    <!-- MasterThesis -->
+    <div id="MasterThesis" class="tabcontent">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card ">
+            <img class="myImages" id="myImg" data-bs-toggle="modal" data-bs-target="#exampleModal" src="../minecraft/images/skins/skins_streamers.png" width="100%">   
+            <div class="card-body">
+              <p class="card-text">Streamers x Mymetaverse.io skins</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">March 2021</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <!-- Other -->
+    <div id="Other" class="tabcontent">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card ">
+            <div class="sketchfab-embed-wrapper">
+                <iframe title="Harley-styled Motorcycle" src="https://sketchfab.com/models/3e6f9b9cbaec41dfa411696177759431/embed?camera=0" width="100%" height="225" >
+                </iframe>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Harley-styled Motorcycle for Java Minecraft</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">March 2021</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <button onclick="topFunction()" class= "btn" id="myBtn" title="Go to top">Top</button>
+</main>
+
+<!-- 
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="https://getbootstrap.com/docs/5.0/examples/album/#">Back to top</a>
+    </p>
+    <p class="mb-1">Album example is © Bootstrap, but please download and customize it for yourself!</p>
+  </div>
+</footer>
+
+-->
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../InformationManagement/js/app.js"></script>
+
+  
+  
+
+</body></html>
