@@ -1,6 +1,10 @@
 body {
-    background-color:#5A9DF4;
+    background-color:#31383F;
     font-weight: 400;
+}
+
+.jumbotron{
+    background-color:#5A9DF4;
 }
 .lead, .btn, button{
     font-weight: 400;
@@ -58,6 +62,9 @@ Modal Images */
   margin: auto;
   display: block;
   width: 80%;
+  max-height: 550px;
+  max-width: 1200px;
+  width: auto;
 }
 }
 
